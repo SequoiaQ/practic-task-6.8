@@ -1,4 +1,4 @@
-const duplicateField = document.querySelector('#duplicateField').addEventListener;
+const duplicateField = document.querySelector('#duplicateField');
         myForm.onsubmit = (e) => {
             const enterText = myForm.text.value;
             duplicateField.textContent = enterText;
