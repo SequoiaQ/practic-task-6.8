@@ -1,9 +1,9 @@
-const textBlock = document.querySelector('text')
+const duplicateField = document.querySelector('#duplicateField');
 
-    elmLabel.addEventListener('mouseup', event => {
-         {
-                event.preventDefault();
-                duplicateField.textContent = elmLabel.value;
-                elmLabel.value = ' ';
+        myForm.onsubmit = (e) => {
+            const enterText = myForm.text.value;
+            duplicateField.textContent = enterText;
+            myForm = myForm.reset();
+            console.log(enterText);
+            e.preventDefault()
         }
-    });
